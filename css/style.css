@@ -8,34 +8,39 @@ body{
     background-color: rgb(199, 199, 199);
 }
 
-.hayden{
-    float: left;
-    margin-left: 15px;
-    width: 347x;
-    height: 413px;
-    border: 5px solid black;
-}
 .deepEco{
     float: right;
     margin-right: 15px;
     border: 5px solid black;
-    height: 360px;
-    width: 480px;
+    width: 100%;
+    max-width: 480px;
+    height: auto;
 }
 .diversity{
     float: left;
     margin-left: 15px;
     border: 5px solid black;
-    size: medium;
-    width: 621px;
-    height: 282px;
+    width: 100%;
+    max-width: 621px;
+    height: auto;
 }
 .fishing{
     float: right;
     margin-right: 15px;
+    margin-left: 15px;
     border: 5px solid black;
-    width: 390px;
-    height: 515px;
+    width: 100%;
+    max-width: 390px;
+    height: auto;
+}
+.hayden{
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    border: 5px solid black;
 }
 .lists{
     font-size: 1.5rem;
@@ -60,21 +65,23 @@ body{
     float: left;
     margin-left: 15px;
     border: 5px solid black;
-    width: 585px;
-    height: 429px;
+    width: 100%;
+    max-width: 585px;
+    height: auto;
 }
 .skiing{
     float: left;
-    margin-left: 15px;
-    width: 390px;
-    height: 515px;
+    width: 100%;
+    max-width: 390px;
+    height: auto;
     border: 5px solid black;
 }
 .skyline{
     float: right;
     margin-right: 15px;
-    height: 153px;
-    width: 545px; 
+    width: 100%;
+    max-width: 545px; 
+    height: auto;
     border: 5px solid black;
 }
 .titles{
@@ -89,6 +96,7 @@ body{
     font-family: Verdana, sans-serif;
     background-color: rgb(18, 127, 190);
     padding: 20px;
+
     border: 5px solid black;
     text-align: center;
 }

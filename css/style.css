@@ -10,37 +10,31 @@ body{
 
 .deepEco{
     float: right;
-    margin-right: 15px;
-    border: 5px solid black;
+    padding: 10px;
     width: 100%;
     max-width: 480px;
     height: auto;
 }
 .diversity{
     float: left;
-    margin-left: 15px;
-    border: 5px solid black;
+    padding: 10px;
     width: 100%;
     max-width: 621px;
     height: auto;
 }
 .fishing{
     float: right;
-    margin-right: 15px;
-    margin-left: 15px;
-    border: 5px solid black;
+    padding: 10px;
     width: 100%;
-    max-width: 390px;
+    max-width: 415px;
     height: auto;
 }
 .hayden{
     float: left;
-    margin-left: 15px;
-    margin-right: 15px;
+    padding: 10px;
     width: 100%;
-    max-width: 450px;
+    max-width: 415px;
     height: auto;
-    border: 5px solid black;
 }
 .lists{
     font-size: 1.5rem;
@@ -53,6 +47,7 @@ body{
     margin-right: 15px;
     font-size: 1.5rem;
 }
+
 .menu{
     background-color: rgb(199, 199, 199);
     font-family: Verdana, sans-serif;
@@ -63,26 +58,24 @@ body{
 }
 .salt{
     float: left;
-    margin-left: 15px;
-    border: 5px solid black;
+    padding: 10px;
     width: 100%;
     max-width: 585px;
     height: auto;
 }
 .skiing{
     float: left;
+    padding: 10px;
     width: 100%;
-    max-width: 390px;
+    max-width: 415px;
     height: auto;
-    border: 5px solid black;
 }
 .skyline{
     float: right;
-    margin-right: 15px;
+    padding: 10px;
     width: 100%;
     max-width: 545px; 
     height: auto;
-    border: 5px solid black;
 }
 .titles{
     font-family: Verdana, sans-serif;
@@ -92,11 +85,10 @@ body{
     font-weight: bold;
 }
 .welcome{
-    font-size: 5rem;
+    font-size: 4.5rem;
+    text-align: center;
     font-family: Verdana, sans-serif;
     background-color: rgb(18, 127, 190);
     padding: 20px;
-
     border: 5px solid black;
-    text-align: center;
 }
